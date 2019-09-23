@@ -1,0 +1,1 @@
+export const FETCH_ATTACKS = 'FETCH_ATTACKS'
