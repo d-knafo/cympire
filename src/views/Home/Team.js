@@ -27,11 +27,11 @@ class Team extends Component {
         <div className="card-body">
           <h5 className="card-title">
             <strong> Team: </strong> {this.props.team.team_name}
-          </h5>
+          </h5><span className="text-muted">{ this.props.team.team_id }</span>
           <h6 className="card-subtitle mb-2 text-muted">
-            { this.props.team.team_id }
+
           </h6>
-          <div className="d-flex fjustify-content-between m-2">
+          <div className="row d-flex flex-sm-row flex-column fjustify-content-between m-2">
             { this.props.team.steps.map((item, i) => (
               <div
                 key={i}
