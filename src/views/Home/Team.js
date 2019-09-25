@@ -27,7 +27,8 @@ class Team extends Component {
         <div className="card-body">
           <h5 className="card-title">
             <strong> Team: </strong> {this.props.team.team_name}
-          </h5><span className="text-muted">{ this.props.team.team_id }</span>
+          </h5>
+          {/* <span className="text-muted">{ this.props.team.team_id }</span> */}
           <h6 className="card-subtitle mb-2 text-muted">
 
           </h6>
